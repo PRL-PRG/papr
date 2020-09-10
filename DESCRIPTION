@@ -1,0 +1,26 @@
+Package: papr
+Title: Utilities for writing papers on R
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Aviral",
+           family = "Goel",
+           role = c("aut", "cre"),
+           email = "goel.aviral@gmail.com")
+Description: This package provides utilities such as generating latex macros for
+             data obtained from dynamic analysis.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+Imports:
+    tibble,
+    readr,
+    ggplot2,
+    scales,
+    purrr,
+    stringr,
+    extrafont,
+    tikzDevice,
+    R6
+RoxygenNote: 7.1.1
+Suggests:
+    testthat
